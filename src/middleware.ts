@@ -12,7 +12,8 @@ export default auth((req) => {
   }
 
   // Protect document management API
-  if (pathname.startsWith('/api/documents') && !isLoggedIn) {
+  // 開発環境では認証をスキップ
+  if (pathname.startsWith('/api/documents') && !isLoggedIn && process.env.NODE_ENV === 'production') {
     return new Response(JSON.stringify({ error: 'Unauthorized' }), {
       status: 401,
       headers: { 'Content-Type': 'application/json' },
