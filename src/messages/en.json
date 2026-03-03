@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "Support Inquiry AI Assistant",
+    "description": "Automatically generate response drafts for customer inquiries based on product manuals and knowledge base."
+  },
+  "nav": {
+    "home": "Inquiry Response",
+    "admin": "Admin",
+    "documents": "Documents",
+    "history": "Inquiry History",
+    "signIn": "Sign In",
+    "signOut": "Sign Out"
+  },
+  "inquiry": {
+    "title": "Customer Inquiry",
+    "placeholder": "Enter the customer inquiry here...",
+    "submit": "Generate Response",
+    "generating": "Generating response...",
+    "language": "Response Language",
+    "ja": "Japanese",
+    "en": "English"
+  },
+  "response": {
+    "title": "Response Draft",
+    "sources": "Reference Sources",
+    "edit": "Edit Response",
+    "save": "Save Correction",
+    "cancel": "Cancel",
+    "saved": "Correction saved. It will be used to improve future responses.",
+    "copy": "Copy",
+    "copied": "Copied",
+    "corrected": "Corrected",
+    "noSources": "No relevant documents found."
+  },
+  "source": {
+    "pdf": "PDF Manual",
+    "gitbook": "GitBook",
+    "web": "Web Page",
+    "markdown": "Knowledge Article",
+    "qa_correction": "Corrected Q&A",
+    "similarity": "Relevance"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "documents": {
+      "title": "Document Management",
+      "add": "Add Document",
+      "uploadPdf": "Upload PDF",
+      "addUrl": "Add URL",
+      "addMarkdown": "Add Markdown",
+      "dragDrop": "Drag & drop PDF file here",
+      "browse": "Browse Files",
+      "url": "URL",
+      "urlPlaceholder": "https://docs.example.com",
+      "gitbook": "GitBook (import entire site)",
+      "webPage": "Web Page (single page only)",
+      "markdownTitle": "Title",
+      "markdownContent": "Markdown Content",
+      "ingest": "Ingest",
+      "ingesting": "Ingesting...",
+      "success": "Document ingested successfully ({count} chunks)",
+      "delete": "Delete",
+      "confirmDelete": "Delete this document?",
+      "empty": "No documents yet. Add one using the button above.",
+      "total": "{count} documents total"
+    },
+    "history": {
+      "title": "Inquiry History",
+      "query": "Inquiry",
+      "response": "Response",
+      "corrected": "Corrected",
+      "date": "Date",
+      "empty": "No inquiry history yet."
+    }
+  },
+  "login": {
+    "title": "Sign In",
+    "description": "Sign in to access the admin dashboard.",
+    "google": "Sign in with Google"
+  },
+  "error": {
+    "general": "An error occurred. Please try again.",
+    "noQuery": "Please enter an inquiry.",
+    "ingestFailed": "Failed to ingest document."
+  }
+}

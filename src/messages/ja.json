@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "問い合わせ支援 AI アシスタント",
+    "description": "製品マニュアルやナレッジベースを元に、お客様からの問い合わせに対する回答案を自動生成します。"
+  },
+  "nav": {
+    "home": "問い合わせ対応",
+    "admin": "管理画面",
+    "documents": "ドキュメント管理",
+    "history": "問い合わせ履歴",
+    "signIn": "サインイン",
+    "signOut": "サインアウト"
+  },
+  "inquiry": {
+    "title": "お客様からの問い合わせ",
+    "placeholder": "お客様からの問い合わせ内容をここに入力してください...",
+    "submit": "回答案を生成",
+    "generating": "回答案を生成中...",
+    "language": "回答言語",
+    "ja": "日本語",
+    "en": "英語"
+  },
+  "response": {
+    "title": "回答案",
+    "sources": "参照ソース",
+    "edit": "回答を編集",
+    "save": "修正を保存",
+    "cancel": "キャンセル",
+    "saved": "修正を保存しました。次回の回答精度向上に活用されます。",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "corrected": "修正済み",
+    "noSources": "参照できるドキュメントが見つかりませんでした。"
+  },
+  "source": {
+    "pdf": "PDF マニュアル",
+    "gitbook": "GitBook",
+    "web": "Web ページ",
+    "markdown": "ノウハウ",
+    "qa_correction": "修正済み Q&A",
+    "similarity": "関連度"
+  },
+  "admin": {
+    "title": "管理ダッシュボード",
+    "documents": {
+      "title": "ドキュメント管理",
+      "add": "ドキュメントを追加",
+      "uploadPdf": "PDF をアップロード",
+      "addUrl": "URL を追加",
+      "addMarkdown": "Markdown を追加",
+      "dragDrop": "PDF ファイルをドラッグ&ドロップ",
+      "browse": "ファイルを選択",
+      "url": "URL",
+      "urlPlaceholder": "https://docs.example.com",
+      "gitbook": "GitBook（サイト全体を取り込む）",
+      "webPage": "Web ページ（1 ページのみ）",
+      "markdownTitle": "タイトル",
+      "markdownContent": "Markdown コンテンツ",
+      "ingest": "取り込む",
+      "ingesting": "取り込み中...",
+      "success": "ドキュメントを取り込みました（{count} チャンク）",
+      "delete": "削除",
+      "confirmDelete": "このドキュメントを削除しますか？",
+      "empty": "ドキュメントがありません。上のボタンから追加してください。",
+      "total": "合計 {count} ドキュメント"
+    },
+    "history": {
+      "title": "問い合わせ履歴",
+      "query": "問い合わせ内容",
+      "response": "回答",
+      "corrected": "修正あり",
+      "date": "日時",
+      "empty": "問い合わせ履歴がありません。"
+    }
+  },
+  "login": {
+    "title": "サインイン",
+    "description": "管理画面にアクセスするにはサインインが必要です。",
+    "google": "Google でサインイン"
+  },
+  "error": {
+    "general": "エラーが発生しました。もう一度お試しください。",
+    "noQuery": "問い合わせ内容を入力してください。",
+    "ingestFailed": "ドキュメントの取り込みに失敗しました。"
+  }
+}

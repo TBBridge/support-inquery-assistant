@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__list_directory",
+      "mcp__filesystem__list_allowed_directories",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npx create-next-app@latest _tmp_next --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npx create-next-app@latest tmp-next-app --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npx create-next-app@latest tmp-next-app --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --no-turbopack)",
+      "Bash(npx --yes create-next-app@14.2.18 tmp-next-app --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npm install)",
+      "Bash(npm install @anthropic-ai/sdk @vercel/postgres voyageai @modelcontextprotocol/sdk next-auth@beta pdf-parse cheerio axios gray-matter zod lucide-react next-intl)",
+      "Bash(npm install -D @types/pdf-parse @types/cheerio)",
+      "Bash(npx shadcn@latest init --yes --base-color slate)",
+      "Bash(npx shadcn@latest add button card input label textarea badge tabs toast separator --yes)",
+      "Bash(npx shadcn@latest add dialog select alert scroll-area progress dropdown-menu table skeleton --yes)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(node -e \"const v = require\\(''voyageai''\\); console.log\\(Object.keys\\(v\\)\\)\")",
+      "Bash(npm run build)",
+      "Bash(git init)",
+      "Bash(git add -A)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

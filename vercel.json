@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "src/app/api/documents/ingest/route.ts": {
+      "maxDuration": 300
+    },
+    "src/app/api/inquiries/route.ts": {
+      "maxDuration": 60
+    },
+    "src/app/api/mcp/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
