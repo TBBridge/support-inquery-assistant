@@ -1,6 +1,11 @@
 import { auth } from '@/lib/auth';
 
 export default auth((req) => {
+  // 開発環境では認証を完全にスキップ
+  if (process.env.NODE_ENV !== 'production') {
+    return;
+  }
+
   const isLoggedIn = !!req.auth;
   const pathname = req.nextUrl.pathname;
 
@@ -12,8 +17,7 @@ export default auth((req) => {
   }
 
   // Protect document management API
-  // 開発環境では認証をスキップ
-  if (pathname.startsWith('/api/documents') && !isLoggedIn && process.env.NODE_ENV === 'production') {
+  if (pathname.startsWith('/api/documents') && !isLoggedIn) {
     return new Response(JSON.stringify({ error: 'Unauthorized' }), {
       status: 401,
       headers: { 'Content-Type': 'application/json' },
