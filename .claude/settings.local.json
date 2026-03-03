@@ -20,7 +20,13 @@
       "Bash(npm run build)",
       "Bash(git init)",
       "Bash(git add -A)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add origin https://github.com/TBBridge/support-inquery-assistant.git)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)",
+      "Bash(git remote set-url origin https://github.com/TBBridge/support-inquery-assistant.git)",
+      "Bash(git config --list)",
+      "Bash(git remote set-url origin https://github.com/Charles-Lu2304/support-inquery-assistant.git)"
     ]
   }
 }
